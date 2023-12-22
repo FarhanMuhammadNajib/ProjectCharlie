@@ -1,7 +1,7 @@
 ( function( $ ) {
 
     // Load parameters from JSON file
-    fetch('../customize.json')
+    fetch('/customize.json')
         .then(response => response.json())
         .then(parameters => {
 
@@ -50,7 +50,7 @@
                 if (distance < 0) {
                     clearInterval(x);
                     document.getElementById("countdown").style.display = "none";
-                    window.location.href = "../index.html";
+                    window.location.href = "index.html";
                 }
             }, 1000);
         });
