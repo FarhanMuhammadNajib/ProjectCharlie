@@ -1,0 +1,68 @@
+/* countdown timer CSS file */
+
+body {
+    background-color: #F9F2ED;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #3AB0FF;
+	font-weight: bold;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+	flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#event-date {
+    font-size: 30px;
+    color: #3AB0FF;
+}
+
+#countdown {
+	font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 80px;
+    width: 800px;
+    color: #F9F2ED;
+    font-size: 50px;
+    background-color: #3AB0FF;
+    border-radius: 15px;
+    padding: 70px;
+}
+
+.cd-item {
+    margin: 0 10px;
+}
+
+.cd-divider {
+    font-size: 50px;
+    color: #F9F2ED;
+}
+footer {
+    background-color: #FFFF;
+    color: #3AB0FF;
+    padding: 2px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+	font-size: xx-small;
+}
